@@ -1,0 +1,49 @@
+
+\newcommand{\header}[5]{
+	\parindent=0em
+	\includegraphics[width=4cm, height=2cm]{template/sharif_logo.png}
+	
+	\vspace{0em}
+	{\scriptsize\bf دانشگاه صنعتی شریف }
+	\\
+	{\scriptsize\bf دانشکده‌ی مهندسی کامپیوتر}
+	\hfill{\small
+		بررسی و بازبینی: کهبد آیینی #5
+	}\\[-2.6em]
+	\leftline{\hfill\small
+		گردآورندگان: محمدرضا دویران، زهره عباسی، کسری امانی
+	}\\[-2.6em]
+	\leftline{\hfill\small
+	استاد: مهدی صفرنژاد
+	}\\[-3.8em]
+	\leftline{\hfill\Large\bf
+	ساختمان داده و الگوریتم‌ها
+	}\\[0.1em]
+	\leftline{\small\hfill
+		۲۵ فروردین ۱۴۰۱
+	}\\[3em]
+	\hrule height .12em
+	\normalsize
+	\vspace{1mm}
+	\makebox[5cm][r]{#1}
+	\hfill
+	\makebox[5cm][c]{\large #2}
+	\hfill
+	\makebox[5cm][l]{\small مهلت ارسال: ساعت ۱۲ #3}
+	\vspace{1mm}
+	\hrule height .05em
+}
+
+\newcommand{\question}[2]{
+	\item
+	\input{#1}
+}
+
+\newcommand{\partheader}[2]{
+	\hrule height .12em
+	\vspace{0.5em}
+	{\large
+		#1 (#2 نمره)
+	}\\[-0.6em]
+	\hrule height .05em
+}
