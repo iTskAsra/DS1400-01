@@ -1,6 +1,5 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage{subcaption}
-\usepackage{algpseudocode}
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage[colorlinks = true,
@@ -36,7 +35,7 @@ anchorcolor = blue]{hyperref}
 \hypersetup{
 	colorlinks=true,
 	linkcolor=cyan,
-	filecolor=blue,
+	filecolor=blue,      
 	urlcolor=magenta,
 }
 
@@ -50,21 +49,21 @@ anchorcolor = blue]{hyperref}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.95}
 
 \lstdefinestyle{mystyle}{
-	backgroundcolor=\color{backcolour},
+	backgroundcolor=\color{backcolour},   
 	commentstyle=\color{codegreen},
 	keywordstyle=\color{magenta},
 	numberstyle=\tiny\color{codegray},
 	stringstyle=\color{codepurple},
 	basicstyle=\ttfamily\footnotesize,
-	breakatwhitespace=false,
-	breaklines=true,
-	captionpos=b,
-	keepspaces=true,
-	numbers=left,
-	numbersep=5pt,
-	showspaces=false,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
 	showstringspaces=false,
-	showtabs=false,
+	showtabs=false,                  
 	tabsize=2
 }
 
@@ -84,5 +83,5 @@ anchorcolor = blue]{hyperref}
 \makeatletter
 \def\hrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
 \makeatother
-\defpersianfont\iranic[Path="./template/fonts/",Scale=1]{XB Zar.ttf}
+\defpersianfont\iranic[Path="./template/fonts/",Scale=1]{XB Zar.ttf} 	
 \newcommand{\IP}{\mathbb{P}}
