@@ -2,13 +2,14 @@
 \input{template/packages}
 \usepackage{template/template}
 \usepackage{tabularx}
+\usepackage[linesnumbered]{algorithm2e}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 
 \begin{document}
 	\def\ci{\perp\!\!\!\perp}
 
-	
+
 
 	% header{<Assignment-Number>}{<Assignment-Title>}{<Deadline-Date>}{<Gathered-by>}{<Supervised-by>}
 	\header
@@ -17,22 +18,22 @@
 
 	% partheader{<Part-Name>}{<Part-Total-Score>}
 	\partheader{سوالات }{100}
-	
-		
-		
-		
+
+
+
+
 	\begin{enumerate}
 		\setlength{\itemsep}{30pt}
 		% question{<Question-TexFile-Path>}{<Question-Score>}
 		\question{questions/q1}{20}
 		\question{questions/q2}{15}
-		\question{questions/q5}{15}
 		\question{questions/q3}{15}
 		\question{questions/q4}{15}
+		\question{questions/q5}{15}
 		\question{questions/q6}{20}
 
 		\end{enumerate}
 	\begin{flushleft}
-			موفق باشید. 
+			موفق باشید.
 	\end{flushleft}
 \end{document}

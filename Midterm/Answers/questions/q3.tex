@@ -1,14 +1,17 @@
 \begin{itemize}
 \item
-\begin{algorithmic}
-\State $i \gets 10$
-\If{$i\geq 5$}
-    \State $i \gets i-1$
-\Else
-    \If{$i\leq 3$}
-        \State $i \gets i+2$
-    \EndIf
-\EndIf
-\end{algorithmic}
-\item part2
+\begin{LTR}
+\begin{algorithm}
+\KwData{MULTIPOP(S, k)}
+\While{not stack EMPTY and $k>0$}{
+POP(S)\;
+$k \longleftarrow k-1$\;
+}
+\end{algorithm}
+\end{LTR}
+\item می‌دانیم که تعداد \lr{POP}های اجرا شده (شامل آن‌هایی که در فرایند اجرای MULTIPOP فراخوانی شده‌اند)
+حداکثر برابر تعداد \lr{PUSH}ها خواهد بود (زیرا استک در ابتدا خالی بوده) بنابراین
+اگر هزینه اجرا PUSH و POP از $O(1)$ باشد، حداکثر هزینه یک دنباله
+\lr{n}تایی از روال‌های \lr{PUSH, POP, MULTIPOP} برابر با $O(n)$ خواهد بود و
+بدیهی است که هزینه سرشکن هر روال نیز $O(1)$ می‌باشد.
 \end{itemize}
