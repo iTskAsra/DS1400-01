@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.12)  30 APR 2022 14:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.12)  2 MAY 2022 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,9 +1581,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
 [][]
  []
 
-(./questions/q1.tex) (./questions/q2.tex) (./questions/q3.tex
+(./questions/q1.tex
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `TU/XBZar.ttf(1)/bx/n' undefined
+(Font)              using `TU/XBZar.ttf(1)/m/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `TU/XBZar.ttf(1)/m/it' undefined
+(Font)              using `TU/XBZar.ttf(1)/m/n' instead on input line 3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[][]
+ []
+
+) (./questions/q2.tex) [1
+
+] (./questions/q3.tex
 LaTeX Font Info:    Font shape `TU/XBZar.ttf(0)/b/n' will be
-(Font)              scaled to size 11.88007pt on input line 5.
+(Font)              scaled to size 11.88007pt on input line 10.
 
 
 LaTeX Font Warning: Font shape `TU/XBZar.ttf(1)/b/n' undefined
@@ -1593,34 +1653,10 @@ LaTeX Font Warning: Font shape `TU/XBZar.ttf(1)/b/n' undefined
 LaTeX Font Warning: Font shape `TU/XBZar.ttf(0)/m/it' undefined
 (Font)              using `TU/XBZar.ttf(0)/m/n' instead on input line 10.
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
-
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
-
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Font Warning: Font shape `TU/XBZar.ttf(1)/bx/n' undefined
-(Font)              using `TU/XBZar.ttf(1)/m/n' instead on input line 10.
-
-
-LaTeX Font Warning: Font shape `TU/XBZar.ttf(1)/m/it' undefined
-(Font)              using `TU/XBZar.ttf(1)/m/n' instead on input line 10.
-
-) (./questions/q4.tex) (./questions/q5.tex) (./questions/q6.tex) [1
-
-]
+) (./questions/q4.tex) (./questions/q5.tex [2]) (./questions/q6.tex
+LaTeX Font Info:    Font shape `TU/XBZar.ttf(0)/m/it' will be
+(Font)              scaled to size 11.88007pt on input line 22.
+) [3]
 (./question.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1629,12 +1665,12 @@ Package rerunfilecheck Info: File `question.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 43587 strings out of 476179
- 1038599 string characters out of 5809544
- 1538365 words of memory out of 5000000
- 63490 multiletter control sequences out of 15000+600000
+ 43586 strings out of 476179
+ 1038586 string characters out of 5809544
+ 1548365 words of memory out of 5000000
+ 63489 multiletter control sequences out of 15000+600000
  475687 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,15n,94p,1233b,780s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,17n,94p,1233b,830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on question.pdf (1 page).
+Output written on question.pdf (3 pages).

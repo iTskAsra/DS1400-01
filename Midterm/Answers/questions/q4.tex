@@ -3,26 +3,25 @@
 
 \begin{flushleft}
 
-$def \hspace{5} function (node, x, k):$\\
-    $\qquad if \hspace{3} node.value >= x:$\\
-    $\qquad \qquad return \hspace{5} 0$\\
+$def \hspace{5pt} function (node, x, k):$\\
+    $\qquad if \hspace{3pt} node.value >= x:$\\
+    $\qquad \qquad return \hspace{5pt} 0$\\
     $\qquad counter = 1$\\
-	$\qquad if \hspace{3} counter == k:$\\ 
-	$\qquad \qquad return \hspace{5} k$\\ 
-	$\qquad if \hspace{3} node. left:$\\ 
-	$\qquad \qquad counter \hspace{3} += \hspace{3} function (node.left,  \hspace{3} x,  \hspace{3} k-counter)$\\
-	$\qquad if \hspace{3} counter == k:$\\ 
-	$\qquad \qquad return \hspace{5} k$\\ 
-	$\qquad if \hspace{3} node. right:$\\ 
-	$\qquad \qquad counter \hspace{3} += \hspace{3} function(node.right,  \hspace{3} x,  \hspace{3} k-counter)$\\
-	$\qquad return \hspace{5} counter$\\ 
-    
+	$\qquad if \hspace{3pt} counter == k:$\\
+	$\qquad \qquad return \hspace{5pt} k$\\
+	$\qquad if \hspace{3pt} node. left:$\\
+	$\qquad \qquad counter \hspace{3pt} += \hspace{3pt} function (node.left,  \hspace{3pt} x,  \hspace{3pt} k-counter)$\\
+	$\qquad if \hspace{3pt} counter == k:$\\
+	$\qquad \qquad return \hspace{5pt} k$\\
+	$\qquad if \hspace{3pt} node. right:$\\
+	$\qquad \qquad counter \hspace{3pt} += \hspace{3pt} function(node.right,  \hspace{3pt} x,  \hspace{3pt} k-counter)$\\
+	$\qquad return \hspace{5pt} counter$\\
+
  \end{flushleft}
- 
+
  حال اگر خروجی این تابع نهایتا k باشد پس x از k امین عنصر کوچک هرم بزرگتر است و اما در غیر این صورت این مورد برقرار نیست.
- برای هر یک از k راس کوچکتر از x حداکثر دو فرزند داریم که تابع بازگشتی برای آن ها اجرا می شود اما جز رئوس کوچکتر از x نیستند. پس در نهایت حداکثر برای پیدا کردن k راس 3k بار تابع صدا زده می شود که هرکدام از 
+ برای هر یک از k راس کوچکتر از x حداکثر دو فرزند داریم که تابع بازگشتی برای آن ها اجرا می شود اما جز رئوس کوچکتر از x نیستند. پس در نهایت حداکثر برای پیدا کردن k راس 3k بار تابع صدا زده می شود که هرکدام از
  $O(1)$
- می باشد پس در نهایت پیچیدگی زمانی نهایی ما از 
+ می باشد پس در نهایت پیچیدگی زمانی نهایی ما از
   $O(k)$
   خواهد بود.
-  

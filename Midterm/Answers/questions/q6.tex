@@ -1,3 +1,24 @@
 در هر رو صورت متود RANDOM تعداد $\Theta (n)$ بار فراخوانی خواهد شد اما
 تعداد فراخوانی‌های متود PARTITION در بهترین حالت کمتر خواهد بود
-زیرا اندازه ورودی کوچک‌تر است.
+زیرا اندازه ورودی کوچک‌تر است. درک این مطلب با مشاهده \lr{pseudocode} الگوریتم
+ساده‌تر است:
+\begin{LTR}
+\begin{algorithm}[H]
+\SetAlgoLined
+$i \longleftarrow RANDOM(p,r)$\;
+exchange A[r] with A[i]\;
+\Return PARTITION(A,p,r)\;
+\caption{RANDOMIZED-PARTITION(A,p,r)}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\DontPrintSemicolon
+\SetAlgoLined
+\If{$p<r$}{
+$q=$RANDOMIZED-PARTITION(A,p,r)\;
+RANDOMIZED-QUICKSORT(A,p,q-1)\;
+RANDOMIZED-QUICKSORT(A,q+1,r)\;
+}
+\caption{RANDOMIZED-QUICKSORT(A,p,r)}
+\end{algorithm}
+\end{LTR}

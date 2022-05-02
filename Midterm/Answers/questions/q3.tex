@@ -1,14 +1,16 @@
 \begin{itemize}
 \item
+\begin{minipage}{0.7\linewidth}
 \begin{LTR}
-\begin{algorithm}
-\KwData{MULTIPOP(S, k)}
+\begin{algorithm}[H]
 \While{not stack EMPTY and $k>0$}{
 POP(S)\;
 $k \longleftarrow k-1$\;
 }
+\caption{MULTIPOP(S, k)}
 \end{algorithm}
 \end{LTR}
+\end{minipage}
 \item می‌دانیم که تعداد \lr{POP}های اجرا شده (شامل آن‌هایی که در فرایند اجرای MULTIPOP فراخوانی شده‌اند)
 حداکثر برابر تعداد \lr{PUSH}ها خواهد بود (زیرا استک در ابتدا خالی بوده) بنابراین
 اگر هزینه اجرا PUSH و POP از $O(1)$ باشد، حداکثر هزینه یک دنباله
